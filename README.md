@@ -1,6 +1,6 @@
 # AI Projects
 
-A small set of focused AI projects — practical builds, not experiments or notes.
+A small set of focused AI projects practical builds, not experiments or notes.
 Each targets a specific real-world use case and a specific skill: conversational
 design grounded in an actual job, intent classification, and input sanitization
 for privacy/security.
@@ -9,8 +9,8 @@ for privacy/security.
 
 Design notes for a support-flow AI assistant, modeled directly on real IT
 support experience at a bank. Focused on how the assistant should handle the
-actual chaos of that environment — unclear escalation paths, scattered
-documentation, under-resourced support staff — rather than a generic FAQ bot.
+actual chaos of that environment unclear escalation paths, scattered
+documentation, under-resourced support staff rather than a generic FAQ bot.
 
 ## [Handy Car Rental AI](./Handy%20Car%20Rental%20AI.md)
 
@@ -24,10 +24,3 @@ Rewrites a user's input with synonym substitution before it reaches an LLM, so
 the model never sees or stores verbatim user data — reduces both data
 retention risk and prompt-injection surface. Includes an Ollama plugin.
 See that folder's own README for details.
-
----
-
-Earlier exploratory work that used to live in this repo — symbolic/mythic AI
-experiments, learning templates, and raw test logs — has moved to
-[Z-NOTES](https://github.com/KaitMich/Z-NOTES), which is explicitly framed as
-early-stage notes rather than finished projects.
