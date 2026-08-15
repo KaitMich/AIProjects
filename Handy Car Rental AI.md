@@ -29,11 +29,11 @@ json
   ]
 }
 💬 What this does:
-"tag" — A label for each type of user question. This is what your model will predict.
+"tag" - A label for each type of user question. This is what your model will predict.
 
-"patterns" — Examples of what the user might say. These are the training examples.
+"patterns" - Examples of what the user might say. These are the training examples.
 
-"responses" — What the bot can say in return if that tag is detected. The bot will choose one at random.
+"responses" - What the bot can say in return if that tag is detected. The bot will choose one at random.
 
 ---
 
@@ -97,7 +97,7 @@ powershell
 cd "C:\Users\<your_username>\Documents\Handy"
 (Replace <your_username> with your actual Windows login name)
 
-Tip: You can type just cd then drag-and-drop the folder into PowerShell and hit enter—it’ll autofill the path.
+Tip: You can type just cd then drag-and-drop the folder into PowerShell and hit enter - it’ll autofill the path.
 
 ✅ Run the script:
 powershell
@@ -191,7 +191,7 @@ powershell
 
 cd "C:\Users\<your_username>\Documents\Handy"
 py train_model.py
-Let it train for a few minutes—you’ll see accuracy stats printing out every epoch.
+Let it train for a few minutes - you’ll see accuracy stats printing out every epoch.
 
 *** Must have Python 3.10 (or 3.11) (not yet supported for 3.13 as of May 1st).
 https://www.python.org/downloads/release/python-31011/

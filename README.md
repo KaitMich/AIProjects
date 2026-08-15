@@ -21,6 +21,6 @@ straightforward, deployable example of rule-based conversational AI.
 ## [PrivacyFilter](./PrivacyFilter)
 
 Rewrites a user's input with synonym substitution before it reaches an LLM, so
-the model never sees or stores verbatim user data — reduces both data
+the model never sees or stores verbatim user data - reduces both data
 retention risk and prompt-injection surface. Includes an Ollama plugin.
 See that folder's own README for details.

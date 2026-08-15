@@ -30,7 +30,7 @@ While this project won't access real systems, it's built to simulate realistic a
 - Server routing decisions
 - Support ticket escalation flows
 
-All of these are part of the environment map—without referencing any actual data or infrastructure.
+All of these are part of the environment map - without referencing any actual data or infrastructure.
 
 This may eventually include small data tests, but the core focus is on interaction design and flow clarity. The tone is light but professional. Think "calm co-worker, not corporate chatbot."
 
@@ -132,6 +132,6 @@ Future enhancements might include:
 
 ## ✨ Why This Matters
 
-In high-pressure environments like banking, having a calm, consistent support presence can make all the difference. Bank Assistant isn't trying to replace human IT support—it's giving them the breathing room to focus on the complex problems by handling the routine questions with empathy and clarity.
+In high-pressure environments like banking, having a calm, consistent support presence can make all the difference. Bank Assistant isn't trying to replace human IT support - it's giving them the breathing room to focus on the complex problems by handling the routine questions with empathy and clarity.
 
 It's about making chaotic workplaces a little more manageable, one interaction at a time.
