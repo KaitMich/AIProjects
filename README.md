@@ -5,18 +5,21 @@ Each targets a specific real-world use case and a specific skill: conversational
 design grounded in an actual job, intent classification, and input sanitization
 for privacy/security.
 
-## [Bank Assistant](./Bank%20Assistant.md)
+## [Bank Assistant](./BankAssistant)
 
-Design notes for a support-flow AI assistant, modeled directly on real IT
-support experience at a bank. Focused on how the assistant should handle the
-actual chaos of that environment unclear escalation paths, scattered
-documentation, under-resourced support staff rather than a generic FAQ bot.
+A local, LLM-powered IT support chat for a simulated bank helpdesk, modeled
+directly on real IT support experience at a bank. Grounded in a small
+knowledge base of departments and common issues so it answers from that data
+rather than the chaos of unclear escalation paths and scattered
+documentation that inspired it in the first place.
 
-## [Handy Car Rental AI](./Handy%20Car%20Rental%20AI.md)
+## [Handy Car Rental AI](./HandyCarRental)
 
-An intent-classification chatbot for a car rental scenario: pattern-based
-intent detection (`intents.json`), templated responses, no LLM required. A
-straightforward, deployable example of rule-based conversational AI.
+An intent-classification chatbot for a car rental scenario: a small neural
+net trained from scratch to classify user input into one of a few intents
+(bag-of-words → feedforward net → templated response), no LLM required. The
+first hands-on build in this repo, and the one that motivated Bank
+Assistant's different approach.
 
 ## [PrivacyFilter](./PrivacyFilter)
 

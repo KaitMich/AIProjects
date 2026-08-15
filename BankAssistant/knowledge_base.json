@@ -1,0 +1,59 @@
+{
+  "departments": [
+    {
+      "name": "Network Security",
+      "handles": ["port security violations", "VLAN issues", "firewall requests", "VPN access"],
+      "contact": "IT Security Liaison, ext. 4775",
+      "escalation": "Security Operations Center (24/7), ext. 8000"
+    },
+    {
+      "name": "Identity & Access Management",
+      "handles": ["password resets", "account lockouts", "MFA enrollment", "biometric enrollment"],
+      "contact": "IAM Helpdesk, ext. 3100",
+      "escalation": "IAM On-Call, ext. 3199"
+    },
+    {
+      "name": "Teller Systems",
+      "handles": ["teller terminal errors", "transaction system outages", "receipt printer issues"],
+      "contact": "Branch Systems Support, ext. 2200",
+      "escalation": "Branch Systems On-Call, ext. 2299"
+    },
+    {
+      "name": "Vendor & Third-Party Systems",
+      "handles": ["core banking vendor issues", "card processor outages", "ATM network problems"],
+      "contact": "Vendor Liaison Desk, ext. 5050",
+      "escalation": "Vendor Management On-Call, ext. 5099"
+    }
+  ],
+  "common_issues": [
+    {
+      "issue": "Can't log into the teller system after an update",
+      "likely_cause": "Recent updates sometimes change the authentication method or reset cached credentials.",
+      "options": [
+        "Walk through the new login process",
+        "Send the password reset portal link",
+        "Open a ticket with Branch Systems Support (typical response: 15-20 min)"
+      ]
+    },
+    {
+      "issue": "Phone shows as unregistered",
+      "likely_cause": "Device re-registration is usually needed after a network migration or a phone swap.",
+      "options": [
+        "Walk through self-service re-registration",
+        "Open a ticket with IAM Helpdesk"
+      ]
+    },
+    {
+      "issue": "Biometric login not recognized",
+      "likely_cause": "Biometric templates occasionally need re-enrollment after firmware updates or hardware swaps.",
+      "options": [
+        "Walk through re-enrollment",
+        "Fall back to badge + PIN login in the meantime",
+        "Open a ticket with IAM Helpdesk"
+      ]
+    }
+  ],
+  "ticketing": {
+    "note": "Simulated only -- no real ticketing system is contacted. Used to demonstrate escalation flow and response-time expectations."
+  }
+}

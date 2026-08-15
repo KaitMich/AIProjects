@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Good morning", "Hey there"],
+      "responses": ["Hello! How can I assist you with your car rental today?"]
+    },
+    {
+      "tag": "rental_info",
+      "patterns": ["How much is a rental?", "What are your prices?", "Rental cost"],
+      "responses": ["Our rentals start at $29.99/day. What type of vehicle are you interested in?"]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What's your return policy?", "How do I return a car?", "Return process"],
+      "responses": ["You can return your rental to any location. Just leave the keys in the dropbox."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Thanks, goodbye"],
+      "responses": ["Thanks for choosing Handy Car Rentals! Have a safe trip."]
+    }
+  ]
+}
